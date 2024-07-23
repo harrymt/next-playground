@@ -1,11 +1,9 @@
-export default function Home() {
+export default function PrintHome() {
   return (
     <div>
-      <header>This is the header</header>
       <main>
         <div className="main-content">This is the content</div>
       </main>
-      <footer>This is the footer</footer>
     </div>
   );
 }
